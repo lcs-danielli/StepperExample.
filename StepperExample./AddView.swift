@@ -52,7 +52,8 @@ struct AddView: View {
                     Text("select second number")
                 })
                 
-                
+                Text("\(sum)")
+                    .font(.system(size: 80))
             }
            
             
